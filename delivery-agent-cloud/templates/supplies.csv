@@ -1,0 +1,3 @@
+﻿supply_id,material_id,supply_type,quantity,available_date
+SIM-ST001,SIM-MOTOR,stock,30,2026-11-09
+SIM-PO001,SIM-MOTOR,purchase,80,2026-11-11

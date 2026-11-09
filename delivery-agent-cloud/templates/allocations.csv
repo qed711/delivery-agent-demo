@@ -1,0 +1,5 @@
+﻿order_id,supply_id,allocated_quantity
+SIM-O001,SIM-ST001,10
+SIM-O001,SIM-PO001,40
+SIM-O002,SIM-PO001,40
+SIM-O003,SIM-ST001,20

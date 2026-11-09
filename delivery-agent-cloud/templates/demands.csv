@@ -1,0 +1,4 @@
+﻿order_id,material_id,required_quantity
+SIM-O001,SIM-MOTOR,50
+SIM-O002,SIM-MOTOR,40
+SIM-O003,SIM-MOTOR,30

@@ -1,0 +1,4 @@
+﻿order_id,product_name,order_quantity,material_need_date,due_date,data_source
+SIM-O001,模拟装配产品甲,50,2026-11-12,2026-11-16,simulation
+SIM-O002,模拟装配产品乙,40,2026-11-16,2026-11-20,simulation
+SIM-O003,模拟装配产品丙,30,2026-11-12,2026-11-18,simulation
