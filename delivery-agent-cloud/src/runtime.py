@@ -21,8 +21,8 @@ def cloud_model_config():return secret('DEEPSEEK_API_KEY'),secret('DEEPSEEK_MODE
 
 def allow_ai():
     if not public_mode():return True
-    code=secret('DEMO_AI_CODE')
+    code=secret('DEMO_AI_CODE').strip()
     if not code:
-        st.caption('公网演示可使用本地计算；AI解读尚未由站点管理员开放。');return False
+        return True  # 未设置口令时开放AI入口，密钥和外发同意仍由页面检查
     entered=st.text_input('AI演示访问口令',type='password',key='demo_ai_code')
     return bool(entered and hmac.compare_digest(entered.encode("utf-8"),code.encode("utf-8")))
